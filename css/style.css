@@ -1,13 +1,14 @@
 body{
-    background-color:black;
+    background-color:white;
     font-size: 18px;
     line-height: 27px;
 }
 
 h1,h2,h3,h4{ 
     color: white;
+    text-decoration: lightslategray underline;
+    text-decoration-thickness: 1px;
 }
-
 
 
 a,p{
@@ -18,7 +19,7 @@ a,p{
 img {
     margin-top: 20px;
     height: 250px;
-    width: 200px;
+    width: 250px;
     z-index: -1;
     border-radius: 8px;
 }
@@ -35,8 +36,7 @@ footer{
     color: white;
     text-align: center;
     background-color: #343A40;
-    padding-top: 20px;
-    border-top: 1px solid white;
+    padding-top: 5px;
   }
 
 .content{
@@ -45,13 +45,13 @@ footer{
     margin-top: 40px;
     background-color: #343A40;
     color: white;
-
+    border-radius: 10px;
 
 }
     
 
-a:hover {
-    color:maroon;
+a:hover,i:hover {
+    color:red;
 }
 
   
@@ -66,3 +66,6 @@ a:hover {
     border-radius: 8px;
   }
   
+.nav {
+    height:-4px;
+}
