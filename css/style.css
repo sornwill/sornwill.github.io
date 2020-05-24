@@ -2,26 +2,46 @@ body{
     background-color:white;
     font-size: 18px;
     line-height: 27px;
+    color: white;
 }
 
 h1,h2,h3,h4{ 
-    color: white;
     text-decoration: lightslategray underline;
-    text-decoration-thickness: 1px;
 }
 
 
-a,p{
-    color: white;
+
+a{
+    color: lightslategrey;
     font-size: 18px;
 }
 
-img {
-    margin-top: 20px;
+p{
+    margin-bottom:20px;
+}
+
+.projects{
+    margin-top: 15px;
+    border-bottom: solid lightslategrey 1px;
+    padding-bottom: 30px;
+}
+
+.repos{
+ 
     height: 250px;
     width: 250px;
-    z-index: -1;
     border-radius: 8px;
+    align: left;
+}
+
+#tolinks{
+    position: absolute;
+    bottom: 0px;
+}
+
+.links {
+    position: auto;
+    bottom: 0px;
 }
 
 header{
