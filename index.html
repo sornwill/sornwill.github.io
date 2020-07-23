@@ -13,6 +13,10 @@
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
         <script src="https://kit.fontawesome.com/e92fba766f.js" crossorigin="anonymous"></script>
     </head>
     <!-- Content of page in Body -->
@@ -21,8 +25,8 @@
         <header>
 
             <!-- Border and Name at top left -->
-            <nav class="navbar navbar-light bg-dark">
-                <a class="navbar-brand name" style="color: white;">William Sorn</a>
+            <nav class="navbar navbar-default">
+                <a class="navbar-brand name"">William Sorn</a>
         
                     <!-- Link navtabs -->
                     <ul class="nav nav-tabs justify-content-end">
@@ -33,7 +37,10 @@
                             <a class="nav-link" href="portfolio.html">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="nav-link" data-toggle="modal" data-target="#exampleModalCenter">
+                                Contact
+                        </button>
                         </li>
                     </ul>
                 
@@ -45,6 +52,7 @@
         <section>
             <div class="container-sm content">
                 <h3> About Me </h3>
+                <hr>
                 <div class="row">
                     <!-- picture of me -->
                     <div class="col-sm-4">
@@ -61,7 +69,7 @@
                         <p id="tolinks"> 
                             Below you can find my social links to Linkedin, GitHub, and Angellist.
                         </br>
-                            You can also find my resume <a href="Assets/etc/Resume010220.pdf"  target="_blank" alt="resume">here</a>.
+                            You can also find my resume <a href="Assets/etc/Resume010220.pdf"  target="_blank" alt="resume"><u>here</u></a>.
                         </p>
                       
                     </div>
@@ -79,6 +87,55 @@
                 </div>
                
         </footer>
+
+        
+        
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Contacts</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-12 contact-list">
+                                <i class="fas fa-envelope"></i> sornwilliam@gmail.com
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 contact-list">
+                                <i class="fas fa-phone-square"></i> (612) 598-8999
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 contact-list">
+                                <a class="fab fa-github-alt" href="https://github.com/sornwill" target="_blank"> GitHub</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 contact-list">
+                                <a class="fab fa-linkedin" href="https://linkedin.com/in/williamsorn" target="_blank"> LinkedIn</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 contact-list">
+                                <a class="fab fa-angellist" href="https://angel.co/u/william-sorn" target="_blank"> AngelList</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+            </div>
+        </div>
 
     </body>
 

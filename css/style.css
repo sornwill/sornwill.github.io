@@ -2,17 +2,13 @@ body{
     background-color:white;
     font-size: 18px;
     line-height: 27px;
-    color: white;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
 }
-
-h1,h2,h3,h4{ 
-    text-decoration: lightslategray underline;
-}
-
 
 
 a{
-    color: lightslategrey;
+    color: black;
     font-size: 18px;
 }
 
@@ -22,7 +18,7 @@ p{
 
 .projects{
     margin-top: 15px;
-    border-bottom: solid lightslategrey 1px;
+    border-bottom: solid black 1px;
     padding-bottom: 30px;
 }
 
@@ -31,7 +27,6 @@ p{
     height: 250px;
     width: 250px;
     border-radius: 8px;
-    align: left;
 }
 
 #tolinks{
@@ -55,22 +50,22 @@ footer{
     width: 100%;
     color: white;
     text-align: center;
-    background-color: #343A40;
+    background-color:white;
     padding-top: 5px;
   }
 
 .content{
-    border: 1px solid white;
-    padding: 25px 25px 25px 25px;
-    margin-top: 40px;
-    background-color: #343A40;
-    color: white;
+    margin-top: 5%;
+    width: 100%;
+    align-self: center;
+    border: 2px solid black;
+    padding: 25px;
     border-radius: 10px;
-
+    box-shadow: 10px 10px 2px rgba(0, 0, 0, 0.25);
 }
     
 
-a:hover,i:hover {
+a:hover,i:hover, .nav-link:hover {
     color:red;
 }
 
@@ -82,10 +77,26 @@ a:hover,i:hover {
     padding-left: 10%;
     padding-right: 10%;
     text-align: center;
-    background: slategray;
+    background-color: white;
     border-radius: 8px;
   }
   
-.nav {
-    height:-4px;
+.nav{
+    margin-top: -5px;
+    margin-bottom: -6px;
 }
+
+.navbar {
+    border-bottom: 2px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  .nav-link {
+      background-color: white;
+  }
+
+  .contact-list {
+      margin-top: 2px;
+  }
