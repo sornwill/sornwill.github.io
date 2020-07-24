@@ -18,15 +18,15 @@ p{
 
 .projects{
     margin-top: 15px;
-    border-bottom: solid black 1px;
     padding-bottom: 30px;
 }
 
 .repos{
  
-    height: 250px;
-    width: 250px;
+    height: 175px;
+    width: 200px;
     border-radius: 8px;
+    border: solid 2px black;
 }
 
 #tolinks{
@@ -55,7 +55,7 @@ footer{
   }
 
 .content{
-    margin-top: 5%;
+    margin-top: 3%;
     width: 100%;
     align-self: center;
     border: 2px solid black;
