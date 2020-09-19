@@ -100,3 +100,7 @@ a:hover,i:hover, .nav-link:hover {
   .contact-list {
       margin-top: 2px;
   }
+
+  .icon-size {
+      font-size: 36px;
+  }
